@@ -1,5 +1,4 @@
 from flask import Blueprint, render_template
-
 # Create the Blueprint object
 homepage = Blueprint('homepage', __name__, template_folder='templates')
 

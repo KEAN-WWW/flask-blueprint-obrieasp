@@ -1,6 +1,5 @@
 from flask import Flask
 from application.bp.homepage.routes import homepage
-
 # initialize Flask service
 app = Flask(__name__)
 # register blueprint
